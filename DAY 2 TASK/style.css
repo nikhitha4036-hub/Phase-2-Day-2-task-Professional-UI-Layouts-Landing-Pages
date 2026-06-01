@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+}
+
+.navbar{
+    background:#0f172a;
+}
+
+.hero{
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    color:white;
+    padding-top:80px;
+}
+
+.hero h1{
+    font-size:55px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.hero img{
+    transition:0.5s;
+}
+
+.hero img:hover{
+    transform:scale(1.05);
+}
+
+.section-title{
+    font-size:40px;
+    font-weight:bold;
+}
+
+.feature-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.4s;
+    text-align:center;
+}
+
+.feature-card:hover{
+    transform:translateY(-10px);
+}
+
+.pricing-section{
+    background:#f8fafc;
+    padding:80px 0;
+}
+
+.pricing-card{
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.pricing-card:hover{
+    transform:translateY(-10px);
+}
+
+.popular{
+    border:3px solid #2563eb;
+}
+
+.testimonial{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.contact-section{
+    padding:80px 0;
+}
+
+.contact-form{
+    max-width:700px;
+    margin:auto;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    padding:30px;
+}
+
+.btn{
+    transition:.4s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+@media(max-width:768px){
+
+.hero{
+    text-align:center;
+}
+
+.hero h1{
+    font-size:38px;
+}
+
+.section-title{
+    font-size:30px;
+}
+
+}
